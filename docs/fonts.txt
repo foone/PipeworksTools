@@ -1,0 +1,9 @@
+loading font: 0x58d8106f 1490554991 "\FONTS\GENERICFONT.FDX.PRD" size=4480 second-id=3e4d2412 characters=158
+
+loading font: 0x1c0c0d83 470551939 "[Wheel]\gui\fonts\arialblack24outlines.fdx.prd" size=8060 second-id=7A9939FE characters=264
+
+loading font: 0xf4da54fa 4107949306 ??? size=3584 second-id=924f6087 characters=126 matches scream1/3
+
+loading font: 0x31a15b07 832658183 "[Wheel]\gui\fonts\arialblack36.fdx.prd" size=2528 second-id=57346F7A characters=66 matches scream1/3
+
+loading font: 0xb048c889 2957559945 ??? size=4480 second-id=D6DDFCF4 characters=158 <-- THIS IS THE FONT FOR TILES IN THE PUZZLE

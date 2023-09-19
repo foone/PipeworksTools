@@ -1,0 +1,10 @@
+offset 0x04, int  : A
+offset 0x0A, int  : B
+offset 0x38, int  : code_offset
+offset 0x3C, int  : code_length
+offset 0x42, short: var_length
+offset 0x48, int  : C
+offset 0x68, int  : some_kind_of_string_offset
+
+
+allocates: (B+C)*4 + A+C + var_length + code_length 

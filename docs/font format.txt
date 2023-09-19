@@ -1,0 +1,39 @@
+font format
+
+offset 0: texture count (4 bytes)
+
+for each texture:
+	offset n+0: ??? (4 bytes)
+	offset n+4: ??? (4 bytes)
+	offset n+8: ??? (4 bytes)
+
+after texture-list:
+	offset t+ 0: character count (4 bytes)
+	offset t+ 4: ??? (4 bytes)
+	offset t+ 8: ??? (4 bytes)
+	offset t+12: ??? (4 bytes)
+	offset t+16: ??? (4 bytes)
+	offset t+20: ??? (4 bytes)
+	offset t+24: ??? (4 bytes)
+	offset t+28: ??? (4 bytes)
+	offset t+32: ??? (4 bytes)
+
+for each character:
+	offset c+ 0: character (utf-8, 4 bytes)
+	offset c+ 4: left (float, 4 bytes)
+	offset c+ 8: top (float, 4 bytes)
+	offset c+12: right (float, 4 bytes)
+	offset c+16: bottom (float, 4 bytes)
+	offset c+20: ??? (float, 4 bytes)
+	offset c+24: ??? (float, 4 bytes)
+
+after character-list:
+	offset L+ 0: count of kerning pairs (4 bytes)
+
+for each kerning pair:
+	offset k+ 0: character1 (utf-8, 4 bytes)
+	offset k+ 4: character2 (utf-8, 4 bytes)
+	offset k+ 8: ??? (4 bytes)
+
+
+
